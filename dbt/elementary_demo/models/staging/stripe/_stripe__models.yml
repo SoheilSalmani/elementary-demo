@@ -20,3 +20,5 @@ models:
           - relationships:
               to: ref('stg_orders')
               field: order_id
+      - name: amount
+        description: The amount of the payment.
