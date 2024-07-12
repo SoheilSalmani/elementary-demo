@@ -1,0 +1,9 @@
+_commit: 8b35521
+_src_path: ./astro-template/
+add_dbt: true
+add_dbt_packages: true
+ci_cd_platform: github
+project_display_name: Elementary Demo
+select_dbt_packages:
+- codegen
+- dbt_utils
