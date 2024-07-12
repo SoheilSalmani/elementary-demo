@@ -29,7 +29,7 @@ models:
         tests:
           - not_null
           - accepted_values:
-              values: ["placed", "shipped", "completed", "return_pending", "returned"]
+              values: ["placd", "shipped", "completed", "return_pending", "returned"]
       - name: customer_id
         description: The ID of the customer who placed the order.
         tests:
