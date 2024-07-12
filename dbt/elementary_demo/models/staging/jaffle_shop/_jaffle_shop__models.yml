@@ -28,6 +28,15 @@ models:
         description: The status of the order.
         tests:
           - not_null
+          - accepted_values:
+              values:
+                - placed
+                - shipped
+              config:
+                severity: error
+              meta:
+                description: 'The status column in the stg_orders table should be
+                  one of the following values: placed, shipped'
       - name: customer_id
         description: The ID of the customer who placed the order.
         tests:
